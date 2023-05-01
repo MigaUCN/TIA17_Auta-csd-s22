@@ -12,10 +12,10 @@ VERSION : 0.4
 
 BEGIN
 	(*
-	DETTE PROJEKT TILHØRER NU DANMARKS STØRSTE SPILER - - - HUSK AT LIKE OG SUBCRIBE TIL AdruEma PÅ GITHUB - - -
 	This is a comment
 	This FC is now also a type in libraries
-	Vi er her stadig auta-csd-s22
+	This FC is not not a type
+	Extra Extra. Vi er her stadig auta-csd-s22
 	*)
 	
 	#aliveInt := #aliveInt + 1;

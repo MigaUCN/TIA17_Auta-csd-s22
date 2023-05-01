@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V17" />
   <DocumentInfo>
-    <Created>2023-05-01T07:37:14.7266722Z</Created>
+    <Created>2023-05-01T08:56:18.9047938Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -17,16 +17,36 @@
         <DisplayName>TIA Portal Version Control Interface</DisplayName>
         <DisplayVersion>V17</DisplayVersion>
       </OptionPackage>
+      <OptionPackage>
+        <DisplayName>TIA Portal Test Suite Advanced</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SINAMICS Startdrive G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>SINAMICS Startdrive G110M, G120, G120C, G120D, G120P, G115D</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
       <Product>
         <DisplayName>STEP 7 Professional</DisplayName>
         <DisplayVersion>V17</DisplayVersion>
       </Product>
       <OptionPackage>
+        <DisplayName>STEP 7 CFC</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
         <DisplayName>STEP 7 Safety</DisplayName>
         <DisplayVersion>V17</DisplayVersion>
       </OptionPackage>
       <Product>
-        <DisplayName>WinCC Advanced</DisplayName>
+        <DisplayName>WinCC Advanced / Unified PC</DisplayName>
         <DisplayVersion>V17</DisplayVersion>
       </Product>
     </InstalledProducts>
@@ -103,16 +123,22 @@
         <AttributeList>
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
   <Parts>
-    <Access Scope="LocalConstant" UId="21">
-      <Constant Name="LOWERINT" />
+    <Access Scope="LiteralConstant" UId="21">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
     </Access>
     <Access Scope="LocalVariable" UId="22">
       <Symbol>
         <Component Name="AnalogInput" />
       </Symbol>
     </Access>
-    <Access Scope="LocalConstant" UId="23">
-      <Constant Name="UPPERINT" />
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
     </Access>
     <Access Scope="LocalVariable" UId="24">
       <Symbol>
